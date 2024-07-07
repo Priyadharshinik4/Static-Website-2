@@ -1,0 +1,133 @@
+/*Contacts Page*/
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif ;
+}
+header{
+    background-color: rgb(56, 56, 56);
+    box-shadow: 2px 2px 2px  rgb(56, 56, 56);
+    border: 1px solid rgb(56, 56, 56);
+    border-color: transparent;
+    margin-bottom: 30px;
+}
+header img{
+    width:140px;
+    height:80px;
+}
+header img:hover{
+    cursor: pointer;
+}
+ul{ 
+    float: right;
+    margin-top: 34px;
+    margin-right: 20px;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 30px;
+}
+ul li a:hover{
+    color: red;
+}
+h1{
+    text-align: center;
+    font-size: 27px;
+}
+.form1{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #363636;
+    border: none;
+    padding: 20px;
+}
+.form label{
+    padding: 15px;
+    position: relative;
+    top: 15px;
+}
+.form input,textarea{
+    margin: 15px;
+    margin-left: 150px;
+    width: 13rem;
+    height: 25px;
+    position: relative;
+    bottom: 26px;
+    border-radius: 5px;
+    border-color: #363636;
+}
+button{
+    height: 29px;
+    width: 5rem;
+    margin: 20px;
+    border-radius: 10px;
+    border-color: #363636;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+button:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+footer{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid transparent;
+    position: absolute;
+    width: 99.7%;
+    margin-top: 60px;
+}
+.icons i{
+    padding: 5px;
+    font-size: 17px;
+}
+.icons i:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+
+/*Media Query*/
+
+
+@media screen and (max-width: 600px) {
+    header img{
+        width:60px;
+        height:60px;
+    }
+    ul{
+        float: right;
+        margin-top: 22px;
+        margin-right: 10px;
+    }
+    ul li a{
+        font-size: 10px;
+        padding: 9px;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+        text-align: center;
+        font-size: 11px;
+    }
+    .footer1 p{
+        font-size: 12px;
+    }
+}
